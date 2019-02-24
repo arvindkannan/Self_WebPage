@@ -4,8 +4,13 @@ style: light
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-sitemap
 
 permalink: /:year/:month/:day/:title/
+
+author:
+name: Some Person
 
 defaults:
   -
@@ -67,5 +72,26 @@ topics:
   - name: JSON
     web_url: https://github.com/topics/json
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/json/json.png
+ 
+# Select your active Social Network Links.
+  social-network-links:
+  rss: true
+  email: "someone@example.com"
+# facebook: arvindkannan
+  github: arvindkannan
+#  twitter: arvindkannan
+#  reddit: arvindkannan
+  linkedin: arvindkannan1
+#  stackoverflow: "3943160/daattali"
+#  instagram: arvindkannan
+#  youtube: user/arvindkannan
+#  telephone: +14159998888
+
+# Select which share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  google: false
+linkedin: true
   
 theme: jekyll-theme-architect
