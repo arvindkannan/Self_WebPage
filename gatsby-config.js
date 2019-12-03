@@ -51,7 +51,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-favicon",
       options: {
-        logo: "./static/favicon/favicon.ico",
+        logo: "./static/favicon.ico",
         injectHTML: true,
         icons: {
           android: true,
@@ -75,7 +75,7 @@ module.exports = {
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: "minimal-ui",
-        icon: "./static/favicon/favicon.ico",
+        icon: "./static/favicon.ico",
       },
     },
     "gatsby-plugin-offline",
