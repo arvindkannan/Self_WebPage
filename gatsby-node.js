@@ -1,9 +1,10 @@
-import { resolve as _resolve } from "path"
+//import { resolve as _resolve } from "path"
+const path = require(`path`)
 
-export function onCreateWebpackConfig({ actions }) {
-    actions.setWebpackConfig({
-        resolve: {
-            modules: [_resolve(__dirname, "src"), "node_modules"],
-        },
-    })
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      modules: [path._resolve(__dirname, "src"), "node_modules"],
+    },
+  })
 }

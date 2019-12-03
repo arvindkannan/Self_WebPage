@@ -2,7 +2,7 @@ let siteConfig = {
   defaultTitle: "Arvind.K",
   logo: "https://portfolio.smakosh.com/favicon/favicon-512.png",
   author: "Arvind K",
-  url: "https://portfolio.smakosh.com",
+  url: "https://arvindkannan.github.io/",
   legalName: "K Arvind",
   defaultDescription: "I’m Arvind and I’m a Backend Engineer!",
   socialLinks: {
