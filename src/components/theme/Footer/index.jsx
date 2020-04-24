@@ -13,13 +13,13 @@ export const Footer = () => (
           <span aria-label="love" role="img">
             💖
           </span>{" "}
-          using{" "}
+          by Arvind.K using{" "}
           <a
             href="https://smakosh.com/?ref=portfolio-dev"
             rel="noopener noreferrer"
             target="_blank"
           >
-            Smakosh Gastby Portfolio
+            Smakosh's Template
           </a>
         </span>
       </Details>
